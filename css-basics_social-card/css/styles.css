@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+article {
+  width: 300px;
+  text-align: center;
+  border: 1px solid green;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+h2 {
+  color: red;
+}
+
+p {
+  color: orange;
+}
+
+span {
+  color: red;
+}
+
+button {
+  color: green;
+  background-color: white;
+  border: none;
+}
+
+button:hover {
+  color: red;
+  background-color: white;
+  border: none;
+}
+
+button:active {
+  color: yellow;
+  background-color: white;
+  border: none;
+}
