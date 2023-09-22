@@ -70,7 +70,7 @@ a[href="https://developer.mozilla.org/de/"]
 }
 
 /* 4. These styles should apply to all links in the main navigation */
-FIX_ME {
+nav a {
   outline: 2px dashed red;
   color: #ffffff;
   text-decoration: none;
