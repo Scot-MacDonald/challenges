@@ -83,7 +83,7 @@ a:focus {
 }
 
 /* 6. These styles should apply to all links in the footer */
-FIX_ME {
+footer a {
   outline: 2px dashed red;
   color: inherit;
 }
