@@ -71,7 +71,7 @@ figure {
   margin: var(--margin-zero);
   padding: 10px;
   background-color: var(--color-nemo);
-  border-radius: 4px;
+  border-radius: var(--border-radius);
 }
 
 figcaption {
