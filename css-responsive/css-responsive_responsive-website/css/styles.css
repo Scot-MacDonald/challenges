@@ -243,11 +243,34 @@ CSS when certain conditions that we declare are met - such as a certain viewport
 width, etc. */
 
 /* Media Query Tablet */
-/* --- */
-/* Replace this comment with your media query. */
-/* --- */
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 900px) {
+  .card-section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .product-card,
+  .intro-text {
+    width: 45vw;
+  }
+}
 
 /* Media Query Desktop */
-/* --- */
-/* Replace this comment with your media query. */
-/* --- */
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1200px) {
+  .--forest {
+    min-width: 100%;
+  }
+
+  .card-section {
+    justify-content: center;
+  }
+  .product-card,
+  .intro-text {
+    max-width: 45vw;
+  }
+  .intro-text {
+    align-self: flex-start;
+  }
+}
