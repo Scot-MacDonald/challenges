@@ -243,8 +243,7 @@ CSS when certain conditions that we declare are met - such as a certain viewport
 width, etc. */
 
 /* Media Query Tablet */
-/* Media Query for Tablets Ipads portrait mode */
-@media (min-width: 900px) {
+@media (min-width: 768px) {
   .card-section {
     flex-direction: row;
     flex-wrap: wrap;
@@ -254,13 +253,16 @@ width, etc. */
   .intro-text {
     width: 45vw;
   }
+  .intro-text {
+    align-self: flex-start;
+  }
 }
 
 /* Media Query Desktop */
-/* Media Query for Laptops and Desktops */
-@media (min-width: 1200px) {
+@media (min-width: 1025px) {
   .--forest {
     min-width: 100%;
+    min-height: 500px;
   }
 
   .card-section {
