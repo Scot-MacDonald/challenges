@@ -23,6 +23,12 @@ ul {
   background-color: #f3f5f9;
 }
 
+.navigation__menu {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
 .navigation__link {
   background-color: #ff4a11;
   color: #ffffff;
