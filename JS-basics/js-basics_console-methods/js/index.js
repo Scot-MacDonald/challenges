@@ -18,7 +18,7 @@ const hacking = "Happy hacking!";
 
 // 4. Display the variable 'hacking' as a message in the console.
 
-console.log();
+console.log(hacking);
 
 // 5. Which method is used to clear the console? Use it to tidy up the console.
 
