@@ -20,7 +20,10 @@ body {
   grid-template-rows: 300px 200px 300px;
   gap: 1rem;
   padding: 1rem;
-  /* Add styles here */
+  grid-template-areas:
+    "one two three"
+    "four two six"
+    "four five six";
 }
 
 .image-board__image {
@@ -32,25 +35,25 @@ body {
 }
 
 .image-board__image--1 {
-  /* Add styles here */
+  grid-area: one;
 }
 
 .image-board__image--2 {
-  /* Add styles here */
+  grid-area: two;
 }
 
 .image-board__image--3 {
-  /* Add styles here */
+  grid-area: three;
 }
 
 .image-board__image--4 {
-  /* Add styles here */
+  grid-area: four;
 }
 
 .image-board__image--5 {
-  /* Add styles here */
+  grid-area: five;
 }
 
 .image-board__image--6 {
-  /* Add styles here */
+  grid-area: six;
 }
