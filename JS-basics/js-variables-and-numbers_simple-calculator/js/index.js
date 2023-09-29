@@ -57,7 +57,7 @@ moduloButton.addEventListener("click", () => {
   console.log(
     "The remainder of " +
       operand1 +
-      " is divided by " +
+      " when divided by " +
       operand2 +
       " is: " +
       raise
@@ -88,25 +88,25 @@ const divideByTwoButton = document.querySelector('[data-js="divide-by-two"]');
 
 increaseByOneButton.addEventListener("click", () => {
   // 7. Increase the value of "operand1" by 1. Log the new value to the console.
-  const increaseByOne = operand1++;
+  let increaseByOne = operand1++;
   console.log(increaseByOne);
 });
 
 increaseByFiveButton.addEventListener("click", () => {
   // 8. Increase the value of "operand1" by 5. Log the new value to the console.
-  const increaseByFive = (operand1 += 5);
+  let increaseByFive = (operand1 += 5);
   console.log(increaseByFive);
 });
 
 decreaseByOneButton.addEventListener("click", () => {
   // 7. Decrease the value of "operand1" by 1. Log the new value to the console.
-  const decreaseByOne = operand1--;
+  let decreaseByOne = operand1--;
   console.log(decreaseByOne);
 });
 
 decreaseByFiveButton.addEventListener("click", () => {
   // 8. Decrease the value of "operand1" by 5. Log the new value to the console.
-  const decreaseByFive = (operand1 -= 5);
+  let decreaseByFive = (operand1 -= 5);
   console.log(decreaseByFive);
 });
 
