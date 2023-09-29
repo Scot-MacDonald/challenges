@@ -10,6 +10,11 @@ console.clear();
 */
 
 // --v-- write your code here --v--
+const title = "Lost in sound";
+const text = "hello this this is a text";
+const numberOfLikes = 13;
+const author = "scot";
+const isReported = true;
 
 // --^-- write your code here --^--
 
@@ -18,5 +23,11 @@ console.clear();
 */
 
 // --v-- write your code here --v--
+console.log(title);
+console.log(text);
+console.log(numberOfLikes);
+console.log(author);
+console.log(isReported);
 
+console.log(numberOfLikes + 1);
 // --^-- write your code here --^--
