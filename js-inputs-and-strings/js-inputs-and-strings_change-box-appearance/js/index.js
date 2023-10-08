@@ -21,3 +21,17 @@ const color = document.querySelector("[data-js=input-color]");
 const radius = document.querySelector("[data-js=input-radius]");
 const rotation = document.querySelector("[data-js=input-rotation]");
 const box = document.querySelector("div");
+
+// color.addEventListener("input", () => {
+//   box.style.backgroundColor = `hsl(${color.value}, 60%, 60%)`;
+//   console.log(color.value);
+// });
+
+color.addEventListener("input", () => {
+  box.style.backgroundColor = `hsl(${color.value}, 100%, 50%)`;
+  console.log(color.value);
+});
+
+// radius.addEventListener("input", () => {});
+
+// rotation.addEventListener("input", () => {});
