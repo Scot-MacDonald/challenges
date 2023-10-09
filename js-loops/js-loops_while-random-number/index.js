@@ -9,6 +9,11 @@ let count = 0;
 
 // --^-- write/change code here --^--
 
+while (number <= 0.9) {
+  count++;
+  number = Math.random();
+}
+
 console.log(
   `The number that ended the loop was ${number} and it took ${count} rounds to do this!`
 );
