@@ -8,9 +8,11 @@ const startRaceButton = document.querySelector('[data-js="start-race-button"]');
 
 // You'll need to change something about this callback function:
 //                                         ↙️
-startRaceButton.addEventListener("click", () => {
+startRaceButton.addEventListener("click", async () => {
   startRaceButton.setAttribute("disabled", "");
-
+  await animateRunner(runner1);
+  await animateRunner(runner2);
+  await animateRunner(runner3);
   /**
    * Hint 1:
    * The relay runners are already available in the global scope as `runner1`,
