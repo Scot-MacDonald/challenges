@@ -1,4 +1,4 @@
-# React Arrays: Fruits
+r# React Arrays: Fruits
 
 For now, the `./src/App.js` file uses a `Card` component to render the text "banana". This is easy to handle if you only have a single use case.
 
