@@ -9,3 +9,10 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+* {
+  list-style-type: none;
+}
+li {
+  padding: 20px;
+}
