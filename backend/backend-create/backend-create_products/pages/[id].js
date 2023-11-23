@@ -1,5 +1,5 @@
-import Product from "../components/product";
+import Mix from "../components/mix";
 
-export default function ProductDetailsPage() {
-  return <Product />;
+export default function MixDetailsPage() {
+  return <Mix />;
 }
